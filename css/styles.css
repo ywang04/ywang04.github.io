@@ -195,21 +195,6 @@ a.social:hover {
 }
 
 /* Contact Page Style */
-.contact-card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  background-color: #fff;
-  max-width: 500px;
-  text-align: left;
-  border-radius: 6px;
-  border-bottom: 4px solid #ccc;
-  transition: all .5s;
-}
-
-.contact-card:hover {
-  border-color: #0399ff;
-}
-
 .contact-info {
   list-style-type: none;
   font-size: 0.9em;
