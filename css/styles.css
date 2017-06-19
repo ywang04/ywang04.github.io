@@ -18,9 +18,9 @@ a {
   color: #999;
 }
 
-a:hover {
+/*a:hover {
   color: #6633ff;
-}
+}*/
 
 /* Navigation Styles */
 .main-nav {
@@ -142,10 +142,11 @@ ul.skills {
   margin: 3px;
 }
 
-.skills li:nth-child(even) {
+.skills li:nth-child(odd) {
   background: #0399ff;
 }
 
+/* Footer Styles */
 footer {
   width: 100%;
   min-height: 30px;
@@ -191,6 +192,54 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+/* Contact Page Style */
+.contact-card {
+  margin: 30px auto;
+  padding: 20px 40px 40px;
+  background-color: #fff;
+  max-width: 500px;
+  text-align: left;
+  border-radius: 6px;
+  border-bottom: 4px solid #ccc;
+  transition: all .5s;
+}
+
+.contact-card:hover {
+  border-color: #0399ff;
+}
+
+.contact-info {
+  list-style-type: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info a {
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  display: block;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  transition: all .5s;
+}
+
+.contact-info a:hover {
+  color: #0399ff;
+}
+
+.contact-info li.phone a {
+  background-image: url('../images/phone.png');
+}
+
+.contact-info li.email a {
+  background-image: url('../images/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../images/twitter.png');
 }
 
 /* Styles for larger screens */
