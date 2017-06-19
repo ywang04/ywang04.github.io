@@ -138,11 +138,11 @@ ul.skills {
   display: inline-block;
   background: #ff9904;
   color: white;
-  padding: 5px 10px;
-  margin: 2px;
+  padding: 6px 10px;
+  margin: 3px;
 }
 
-.skills li:nth-child(odd) {
+.skills li:nth-child(even) {
   background: #0399ff;
 }
 
