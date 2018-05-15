@@ -18,10 +18,6 @@ a {
   color: #999;
 }
 
-/*a:hover {
-  color: #6633ff;
-}*/
-
 /* Navigation Styles */
 .main-nav {
   width: 100%;
@@ -103,7 +99,6 @@ header .profile-image:hover {
   background-color: #222;
   color: gold;
 }
-
 
 /*Section Styles*/
 .card {
@@ -194,6 +189,59 @@ a.social:hover {
   clear: both;
 }
 
+/* Projects page */
+#gallery {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery li h3 {
+  text-align: center;
+}
+
+#gallery img {
+  max-width: 100%;
+}
+
+#gallery li {
+  list-style: none;
+  float: left;
+  width: 90%;
+  margin: 5%;
+  background-color: #f7f5f0;
+  font-size: 0.9em;
+}
+
+#gallery li p {
+  margin: 0;
+  padding: 5%;
+}
+
+.flex2 {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 90%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card2:hover {
+  border-color: #0399ff;
+} 
+
 /* Contact Page Style */
 .contact-info {
   list-style-type: none;
@@ -229,7 +277,6 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
@@ -249,7 +296,6 @@ a.social:hover {
     font-size: 1.2em;
   }
 
-
   main {
     padding-top: 20px;
   }
@@ -264,4 +310,13 @@ a.social:hover {
     margin: 40px auto;
   }
 
+  /* page: projects*/
+  #gallery li {
+    margin: 2.5%;
+    width: 28.3333%;
+  }
+
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
 }
