@@ -61,7 +61,7 @@ header {
   text-align: center;
   background-image: url('../images/sydney.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; 
   background-size: cover;
   background-color: black;
   overflow: hidden;
